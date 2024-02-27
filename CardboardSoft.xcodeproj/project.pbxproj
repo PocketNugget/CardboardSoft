@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05366F322B8E83250077D74E /* CardboardSoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366F312B8E83250077D74E /* CardboardSoftApp.swift */; };
+		05366F342B8E83250077D74E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366F332B8E83250077D74E /* ContentView.swift */; };
+		05366F362B8E83270077D74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05366F352B8E83270077D74E /* Assets.xcassets */; };
+		05366F392B8E83270077D74E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05366F382B8E83270077D74E /* Preview Assets.xcassets */; };
+		05366F432B8E83270077D74E /* CardboardSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366F422B8E83270077D74E /* CardboardSoftTests.swift */; };
+		05366F4D2B8E83270077D74E /* CardboardSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366F4C2B8E83270077D74E /* CardboardSoftUITests.swift */; };
+		05366F4F2B8E83270077D74E /* CardboardSoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05366F4E2B8E83270077D74E /* CardboardSoftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05366F3F2B8E83270077D74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05366F262B8E83250077D74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05366F2D2B8E83250077D74E;
+			remoteInfo = CardboardSoft;
+		};
+		05366F492B8E83270077D74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05366F262B8E83250077D74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05366F2D2B8E83250077D74E;
+			remoteInfo = CardboardSoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05366F2E2B8E83250077D74E /* CardboardSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardboardSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05366F312B8E83250077D74E /* CardboardSoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardboardSoftApp.swift; sourceTree = "<group>"; };
+		05366F332B8E83250077D74E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05366F352B8E83270077D74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05366F382B8E83270077D74E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05366F3E2B8E83270077D74E /* CardboardSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardboardSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05366F422B8E83270077D74E /* CardboardSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardboardSoftTests.swift; sourceTree = "<group>"; };
+		05366F482B8E83270077D74E /* CardboardSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardboardSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05366F4C2B8E83270077D74E /* CardboardSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardboardSoftUITests.swift; sourceTree = "<group>"; };
+		05366F4E2B8E83270077D74E /* CardboardSoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardboardSoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05366F2B2B8E83250077D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F3B2B8E83270077D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F452B8E83270077D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05366F252B8E83250077D74E = {
+			isa = PBXGroup;
+			children = (
+				05366F302B8E83250077D74E /* CardboardSoft */,
+				05366F412B8E83270077D74E /* CardboardSoftTests */,
+				05366F4B2B8E83270077D74E /* CardboardSoftUITests */,
+				05366F2F2B8E83250077D74E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05366F2F2B8E83250077D74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05366F2E2B8E83250077D74E /* CardboardSoft.app */,
+				05366F3E2B8E83270077D74E /* CardboardSoftTests.xctest */,
+				05366F482B8E83270077D74E /* CardboardSoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05366F302B8E83250077D74E /* CardboardSoft */ = {
+			isa = PBXGroup;
+			children = (
+				05366F312B8E83250077D74E /* CardboardSoftApp.swift */,
+				05366F332B8E83250077D74E /* ContentView.swift */,
+				05366F352B8E83270077D74E /* Assets.xcassets */,
+				05366F372B8E83270077D74E /* Preview Content */,
+			);
+			path = CardboardSoft;
+			sourceTree = "<group>";
+		};
+		05366F372B8E83270077D74E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05366F382B8E83270077D74E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05366F412B8E83270077D74E /* CardboardSoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				05366F422B8E83270077D74E /* CardboardSoftTests.swift */,
+			);
+			path = CardboardSoftTests;
+			sourceTree = "<group>";
+		};
+		05366F4B2B8E83270077D74E /* CardboardSoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05366F4C2B8E83270077D74E /* CardboardSoftUITests.swift */,
+				05366F4E2B8E83270077D74E /* CardboardSoftUITestsLaunchTests.swift */,
+			);
+			path = CardboardSoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05366F2D2B8E83250077D74E /* CardboardSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05366F522B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoft" */;
+			buildPhases = (
+				05366F2A2B8E83250077D74E /* Sources */,
+				05366F2B2B8E83250077D74E /* Frameworks */,
+				05366F2C2B8E83250077D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardboardSoft;
+			productName = CardboardSoft;
+			productReference = 05366F2E2B8E83250077D74E /* CardboardSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05366F3D2B8E83270077D74E /* CardboardSoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05366F552B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoftTests" */;
+			buildPhases = (
+				05366F3A2B8E83270077D74E /* Sources */,
+				05366F3B2B8E83270077D74E /* Frameworks */,
+				05366F3C2B8E83270077D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05366F402B8E83270077D74E /* PBXTargetDependency */,
+			);
+			name = CardboardSoftTests;
+			productName = CardboardSoftTests;
+			productReference = 05366F3E2B8E83270077D74E /* CardboardSoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05366F472B8E83270077D74E /* CardboardSoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05366F582B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoftUITests" */;
+			buildPhases = (
+				05366F442B8E83270077D74E /* Sources */,
+				05366F452B8E83270077D74E /* Frameworks */,
+				05366F462B8E83270077D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05366F4A2B8E83270077D74E /* PBXTargetDependency */,
+			);
+			name = CardboardSoftUITests;
+			productName = CardboardSoftUITests;
+			productReference = 05366F482B8E83270077D74E /* CardboardSoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05366F262B8E83250077D74E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					05366F2D2B8E83250077D74E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					05366F3D2B8E83270077D74E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 05366F2D2B8E83250077D74E;
+					};
+					05366F472B8E83270077D74E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 05366F2D2B8E83250077D74E;
+					};
+				};
+			};
+			buildConfigurationList = 05366F292B8E83250077D74E /* Build configuration list for PBXProject "CardboardSoft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05366F252B8E83250077D74E;
+			productRefGroup = 05366F2F2B8E83250077D74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05366F2D2B8E83250077D74E /* CardboardSoft */,
+				05366F3D2B8E83270077D74E /* CardboardSoftTests */,
+				05366F472B8E83270077D74E /* CardboardSoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05366F2C2B8E83250077D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05366F392B8E83270077D74E /* Preview Assets.xcassets in Resources */,
+				05366F362B8E83270077D74E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F3C2B8E83270077D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F462B8E83270077D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05366F2A2B8E83250077D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05366F342B8E83250077D74E /* ContentView.swift in Sources */,
+				05366F322B8E83250077D74E /* CardboardSoftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F3A2B8E83270077D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05366F432B8E83270077D74E /* CardboardSoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05366F442B8E83270077D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05366F4D2B8E83270077D74E /* CardboardSoftUITests.swift in Sources */,
+				05366F4F2B8E83270077D74E /* CardboardSoftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05366F402B8E83270077D74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05366F2D2B8E83250077D74E /* CardboardSoft */;
+			targetProxy = 05366F3F2B8E83270077D74E /* PBXContainerItemProxy */;
+		};
+		05366F4A2B8E83270077D74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05366F2D2B8E83250077D74E /* CardboardSoft */;
+			targetProxy = 05366F492B8E83270077D74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05366F502B8E83270077D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05366F512B8E83270077D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05366F532B8E83270077D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardboardSoft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05366F542B8E83270077D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardboardSoft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05366F562B8E83270077D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardboardSoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardboardSoft";
+			};
+			name = Debug;
+		};
+		05366F572B8E83270077D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardboardSoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardboardSoft";
+			};
+			name = Release;
+		};
+		05366F592B8E83270077D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardboardSoft;
+			};
+			name = Debug;
+		};
+		05366F5A2B8E83270077D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nuggz.CardboardSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardboardSoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05366F292B8E83250077D74E /* Build configuration list for PBXProject "CardboardSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05366F502B8E83270077D74E /* Debug */,
+				05366F512B8E83270077D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05366F522B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05366F532B8E83270077D74E /* Debug */,
+				05366F542B8E83270077D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05366F552B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05366F562B8E83270077D74E /* Debug */,
+				05366F572B8E83270077D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05366F582B8E83270077D74E /* Build configuration list for PBXNativeTarget "CardboardSoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05366F592B8E83270077D74E /* Debug */,
+				05366F5A2B8E83270077D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05366F262B8E83250077D74E /* Project object */;
+}
