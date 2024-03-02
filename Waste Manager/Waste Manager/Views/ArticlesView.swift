@@ -13,7 +13,7 @@ struct ArticlesView: View {
     var body: some View {
         ZStack {
             Rectangle()
-                .fill(colorP.c3.opacity(0.5))
+                .fill(colorP.c3)
             Text("Articles")
         }
     }

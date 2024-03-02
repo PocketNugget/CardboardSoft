@@ -12,7 +12,6 @@
 		621788F12B8FD4F700EFE45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621788F02B8FD4F700EFE45C /* Assets.xcassets */; };
 		621788F42B8FD4F700EFE45C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621788F32B8FD4F700EFE45C /* Preview Assets.xcassets */; };
 		621788FE2B8FD57000EFE45C /* WasteClassification-v2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 621788FD2B8FD57000EFE45C /* WasteClassification-v2.mlmodel */; };
-		621789002B8FD5AF00EFE45C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621788FF2B8FD5AF00EFE45C /* HomeView.swift */; };
 		621789022B8FD5CE00EFE45C /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789012B8FD5CE00EFE45C /* NavigationBarView.swift */; };
 		621789042B8FDC0900EFE45C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789032B8FDC0900EFE45C /* CameraView.swift */; };
 		621789062B8FDC1F00EFE45C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789052B8FDC1F00EFE45C /* ProfileView.swift */; };
@@ -21,6 +20,10 @@
 		6217890C2B901D4000EFE45C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217890B2B901D4000EFE45C /* ModelData.swift */; };
 		6217890E2B901D5E00EFE45C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217890D2B901D5E00EFE45C /* Profile.swift */; };
 		621789112B910F2100EFE45C /* TypeWasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789102B910F2100EFE45C /* TypeWasteButton.swift */; };
+		621789132B92A9D600EFE45C /* BottleAndGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789122B92A9D600EFE45C /* BottleAndGlass.swift */; };
+		621789152B92B8E900EFE45C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789142B92B8E900EFE45C /* SearchBar.swift */; };
+		621789172B92BDE700EFE45C /* MapProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789162B92BDE700EFE45C /* MapProgress.swift */; };
+		621789192B93789400EFE45C /* WasteIdentDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789182B93789400EFE45C /* WasteIdentDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +33,6 @@
 		621788F02B8FD4F700EFE45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621788F32B8FD4F700EFE45C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		621788FD2B8FD57000EFE45C /* WasteClassification-v2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "WasteClassification-v2.mlmodel"; sourceTree = "<group>"; };
-		621788FF2B8FD5AF00EFE45C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		621789012B8FD5CE00EFE45C /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		621789032B8FDC0900EFE45C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		621789052B8FDC1F00EFE45C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,10 @@
 		6217890B2B901D4000EFE45C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6217890D2B901D5E00EFE45C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		621789102B910F2100EFE45C /* TypeWasteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWasteButton.swift; sourceTree = "<group>"; };
+		621789122B92A9D600EFE45C /* BottleAndGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleAndGlass.swift; sourceTree = "<group>"; };
+		621789142B92B8E900EFE45C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		621789162B92BDE700EFE45C /* MapProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProgress.swift; sourceTree = "<group>"; };
+		621789182B93789400EFE45C /* WasteIdentDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteIdentDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				621789102B910F2100EFE45C /* TypeWasteButton.swift */,
+				621789122B92A9D600EFE45C /* BottleAndGlass.swift */,
+				621789142B92B8E900EFE45C /* SearchBar.swift */,
+				621789162B92BDE700EFE45C /* MapProgress.swift */,
+				621789182B93789400EFE45C /* WasteIdentDisplay.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -112,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				621788EE2B8FD4F600EFE45C /* ContentView.swift */,
-				621788FF2B8FD5AF00EFE45C /* HomeView.swift */,
 				621789012B8FD5CE00EFE45C /* NavigationBarView.swift */,
 				621789032B8FDC0900EFE45C /* CameraView.swift */,
 				621789052B8FDC1F00EFE45C /* ProfileView.swift */,
@@ -201,12 +210,15 @@
 			files = (
 				621789022B8FD5CE00EFE45C /* NavigationBarView.swift in Sources */,
 				621789082B8FDC7400EFE45C /* MapView.swift in Sources */,
+				621789132B92A9D600EFE45C /* BottleAndGlass.swift in Sources */,
+				621789192B93789400EFE45C /* WasteIdentDisplay.swift in Sources */,
 				621788FE2B8FD57000EFE45C /* WasteClassification-v2.mlmodel in Sources */,
 				6217890A2B8FDC8600EFE45C /* ArticlesView.swift in Sources */,
 				621788EF2B8FD4F600EFE45C /* ContentView.swift in Sources */,
 				621789042B8FDC0900EFE45C /* CameraView.swift in Sources */,
+				621789172B92BDE700EFE45C /* MapProgress.swift in Sources */,
+				621789152B92B8E900EFE45C /* SearchBar.swift in Sources */,
 				621789112B910F2100EFE45C /* TypeWasteButton.swift in Sources */,
-				621789002B8FD5AF00EFE45C /* HomeView.swift in Sources */,
 				6217890C2B901D4000EFE45C /* ModelData.swift in Sources */,
 				6217890E2B901D5E00EFE45C /* Profile.swift in Sources */,
 				621789062B8FDC1F00EFE45C /* ProfileView.swift in Sources */,

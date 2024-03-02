@@ -22,6 +22,7 @@ struct CameraView: View {
             
             ZStack{
                 ARViewContainer().edgesIgnoringSafeArea(.all)
+                
                 // Only shows information if something is recognized
                 Text(modelData.IdentfiedWaste)
                     .frame(width: dWidth * 0.7, height: dHeight * 0.7)

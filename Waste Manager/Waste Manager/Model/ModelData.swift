@@ -34,9 +34,10 @@ class ModelData: ObservableObject {
 }
 
 struct ColorPalette {
-    let c1 = Color.init(red: 0.7529411764705882, green: 1, blue: 0.4196078431372549)
-    let c2 = Color.init(red: 119/255, green: 230/255, blue: 137/255)
-    let c3 = Color.init(red: 210/255, green: 235/255, blue: 215/255)
-    let c4 = Color.init(red: 0.8352941176470589, green: 0.8352941176470589, blue: 0.8352941176470589)
-    let c5 = Color.init(red: 0, green: 0, blue: 0)
+    let c1 = Color.init(red: 251/255, green: 251/255, blue: 251/255)
+    let c2 = Color.init(red: 31/255, green: 160/255, blue: 69/255)
+    let c3 = Color.init(red: 95/255, green: 223/255, blue: 119/255)
+    let c4 = Color.init(red: 221/255, green: 246/255, blue: 226/255)
+    let c5 = Color.init(red: 119/255, green: 220/255, blue: 137/255)
+    let c6 = Color.init(red: 72/255, green: 62/255, blue: 77/255)
 }

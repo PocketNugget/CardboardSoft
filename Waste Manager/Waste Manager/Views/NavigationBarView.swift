@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NavigationBarView: View {
-    @State var currentTab: Tab = .Home
+    @State var currentTab: Tab = .Maps
     let colorP = ColorPalette()
     
     // Hide native bar
@@ -21,33 +21,36 @@ struct NavigationBarView: View {
             let dHeight = proxy.size.height
             let dWidth = proxy.size.width
             
-            TabView(selection: $currentTab) {
-                HomeView()
-                    .tag(Tab.Home)
-                CameraView()
-                    .tag(Tab.Camera)
-                ArticlesView()
-                    .tag(Tab.Articles)
-                ProfileView()
-                    .tag(Tab.Profile)
-                MapView(dWidth: dWidth, dHeight: dHeight)
-                    .ignoresSafeArea()
-                    .tag(Tab.Maps)
-            }
-            .overlay(alignment: .bottom) {
-                HStack(spacing: 0) {
-                    ForEach (Tab.allCases, id: \.rawValue) { tab in
-                        TabButton(tab: tab)
-                    }
-                    .background(colorP.c5)
-                    .padding(.bottom, 5)
+            NavigationStack {
+                TabView(selection: $currentTab) {
+                    //HomeView()
+                        //.tag(Tab.Home)
+                    CameraView()
+                        .tag(Tab.Camera)
+                    ArticlesView()
+                        .tag(Tab.Articles)
+                    ProfileView()
+                        .tag(Tab.Profile)
+                    MapView(dWidth: dWidth, dHeight: dHeight)
+                        .ignoresSafeArea()
+                        .ignoresSafeArea(.keyboard)
+                        .tag(Tab.Maps)
                 }
+                .overlay(alignment: .bottom) {
+                    HStack(spacing: 0) {
+                        ForEach (Tab.allCases, id: \.rawValue) { tab in
+                            TabButton(tab: tab, dWidth: dWidth)
+                        }
+                        .background(colorP.c6)
+                        .padding(.bottom, 5)
+                    }
+                }
+                .ignoresSafeArea()
             }
-            .ignoresSafeArea()
         }
     }
     
-    func TabButton(tab: Tab) -> some View {
+    func TabButton(tab: Tab, dWidth: Double) -> some View {
         Button {
             withAnimation(.spring()) {
                 currentTab = tab
@@ -55,14 +58,15 @@ struct NavigationBarView: View {
         } label: {
             ZStack {
                 Circle()
-                    .fill(currentTab == tab ? LinearGradient(colors: [colorP.c2, colorP.c5], startPoint: .top, endPoint: .bottom) : LinearGradient(colors: [Color.clear], startPoint: .top, endPoint: .bottom))
+                    .fill(currentTab == tab ? LinearGradient(colors: [colorP.c2, colorP.c6], startPoint: .top, endPoint: .bottom) : LinearGradient(colors: [Color.clear], startPoint: .top, endPoint: .bottom))
                     .offset(y: currentTab == tab ? -35 : 0)
+                    .frame(height: dWidth / 5)
                 Image(systemName: currentTab == tab ? tab.rawValue + ".fill": tab.rawValue)
                     .resizable()
                     .scaledToFit()
                     .frame(width: tab == Tab.Articles || tab == Tab.Maps ? 25 : 27)
                     .frame(maxWidth: .infinity)
-                    .foregroundStyle(currentTab == tab ? colorP.c1 : colorP.c1)
+                    .foregroundStyle(colorP.c1)
                     .contentShape(Rectangle())
                     .offset(y: currentTab == tab ? -35 : 0)
             }
@@ -70,10 +74,21 @@ struct NavigationBarView: View {
     }
 }
 
+// These lines are used to maintain the slide feature to go back to another view
+extension UINavigationController: UIGestureRecognizerDelegate {
+    override open func viewDidLoad() {
+        super.viewDidLoad()
+        interactivePopGestureRecognizer?.delegate = self
+    }
+    public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        return viewControllers.count > 1
+    }
+}
+
 // Tabbar enum
 enum Tab: String, CaseIterable {
     case Profile = "person"
-    case Home = "house"
+    //case Home = "house"
     case Camera = "camera"
     case Maps = "map"
     case Articles = "book.pages"
@@ -82,8 +97,8 @@ enum Tab: String, CaseIterable {
         switch self {
         case .Profile:
             return "Profile"
-        case .Home:
-            return "Home"
+        //case .Home:
+            //return "Home"
         case .Camera:
             return "Camera"
         case .Maps:

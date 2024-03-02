@@ -13,13 +13,13 @@ struct TypeWasteButton: View {
     let colorP = ColorPalette()
     let images = ["waterbottle", "carrot", "wineglass", "macbook.and.iphone"]
     let sizes = [0.13, 0.25, 0.15, 0.35]
-    let text = ["Recycle", "Organic", "Glass", "Electronic"]
+    let text = ["Reciclable", "Organica", "Vidrio", "Electronicos"]
     let i: Int
     
     var body: some View {
         RoundedRectangle(cornerRadius: dWidth * 0.0636)
             .fill(
-                LinearGradient(colors: [colorP.c2], startPoint: .top, endPoint: .bottom)
+                LinearGradient(colors: [Color.green, colorP.c2], startPoint: .top, endPoint: .center)
             )
             .frame(width: dWidth * 0.45, height: dWidth * 0.45)
             .overlay {
