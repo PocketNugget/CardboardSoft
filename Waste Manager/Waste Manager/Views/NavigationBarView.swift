@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NavigationBarView: View {
-    @State var currentTab: Tab = .Maps
+    @State var currentTab: Tab = .Articles
     let colorP = ColorPalette()
     
     // Hide native bar
@@ -27,7 +27,9 @@ struct NavigationBarView: View {
                         //.tag(Tab.Home)
                     CameraView()
                         .tag(Tab.Camera)
-                    ArticlesView()
+                    ArticlesView(dWidth: dWidth, dHeight: dHeight)
+                        .ignoresSafeArea()
+                        .ignoresSafeArea(.keyboard)
                         .tag(Tab.Articles)
                     ProfileView()
                         .tag(Tab.Profile)

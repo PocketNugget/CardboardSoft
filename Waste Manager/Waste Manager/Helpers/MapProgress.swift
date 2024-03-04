@@ -31,11 +31,13 @@ struct MapProgress: View {
                     HStack {
                         Text(String(modelData.profile.RecWaste))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                         ProgressView(value: Float(modelData.profile.RecWaste), total: Float(modelData.profile.RecWasteGoal))
                             .tint(Color.green)
                         Text(String(modelData.profile.RecWasteGoal))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                     }
                 }
@@ -53,11 +55,13 @@ struct MapProgress: View {
                     HStack {
                         Text(String(modelData.profile.OrgWaste))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                         ProgressView(value: Float(modelData.profile.OrgWaste), total: Float(modelData.profile.OrgWasteGoal))
                             .tint(Color.green)
                         Text(String(modelData.profile.OrgWasteGoal))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                     }
                 }
@@ -75,11 +79,13 @@ struct MapProgress: View {
                     HStack {
                         Text(String(modelData.profile.GlassWaste))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                         ProgressView(value: Float(modelData.profile.GlassWaste), total: Float(modelData.profile.GlassWasteGoal))
                             .tint(Color.green)
                         Text(String(modelData.profile.GlassWasteGoal))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                     }
                 }
@@ -97,11 +103,13 @@ struct MapProgress: View {
                     HStack {
                         Text(String(modelData.profile.E_Waste))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                         ProgressView(value: Float(modelData.profile.E_Waste), total: Float(modelData.profile.E_WasteGoal))
                             .tint(Color.green)
                         Text(String(modelData.profile.E_WasteGoal))
                             .font(.footnote)
+                            .foregroundStyle(Color.black)
                             .bold()
                     }
                 }

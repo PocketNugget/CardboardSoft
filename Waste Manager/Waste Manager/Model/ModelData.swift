@@ -21,7 +21,7 @@ class ModelData: ObservableObject {
     @Published var ARview = ARView()
     // Creates a default profile
     @Published var profile = Profile.default
-    @Published var IdentfiedWaste = ""
+    @Published var IdentfiedWaste = "Not found"
     @Published var showTutorial = true
     
     // instantiate the core ML model

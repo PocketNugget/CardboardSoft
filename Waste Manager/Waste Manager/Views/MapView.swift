@@ -25,12 +25,12 @@ struct MapView: View {
                     .padding(.bottom, 10)
                 HStack(spacing: 10) {
                     NavigationLink {
-                        
+                        TrueMapView()
                     } label: {
                         TypeWasteButton(dWidth: dWidth, dHeight: dHeight, i: 0)
                     }
                     NavigationLink {
-                        
+                        WasteIdentDisplay(dWidth: dWidth, dHeight: dHeight)
                     } label: {
                         TypeWasteButton(dWidth: dWidth, dHeight: dHeight, i: 1)
                     }

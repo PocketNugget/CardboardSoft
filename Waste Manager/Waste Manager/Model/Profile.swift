@@ -52,4 +52,23 @@ struct Profile {
         E_WasteGoal = EGoal ?? E_WasteGoal
         wasteGoal = RecWasteGoal + OrgWasteGoal + GlassWasteGoal + E_WasteGoal
     }
+    
+    mutating func AddWaste(quantity: Int, type: String) {
+        if quantity <= 0 {
+            return
+        }
+        switch type {
+        case "Recycle":
+            RecWaste += quantity
+        case "Organic":
+            OrgWaste += quantity
+        case "Electronic":
+            E_Waste += quantity
+        case "Glass":
+            GlassWaste += quantity
+        default:
+            return
+        }
+        currentWaste = RecWaste + OrgWaste + GlassWaste + E_Waste
+    }
 }

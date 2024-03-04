@@ -24,8 +24,9 @@ struct CameraView: View {
                 ARViewContainer().edgesIgnoringSafeArea(.all)
                 
                 // Only shows information if something is recognized
-                Text(modelData.IdentfiedWaste)
-                    .frame(width: dWidth * 0.7, height: dHeight * 0.7)
+                if modelData.IdentfiedWaste != "" {
+                    WasteIdentDisplay(dWidth: dWidth, dHeight: dHeight)
+                }
             }
         }
     }
@@ -80,6 +81,7 @@ func continuouslyUpdate() {
     guard let observations = request.results as? [VNClassificationObservation] else { return}
     
     // only proceed if the model prediction's confidence in the first result is greater than 90%
+    modelData.IdentfiedWaste = ""
     if observations[0].confidence < 0.9  { return }
     
     // the model returns predictions in descending order of confidence
